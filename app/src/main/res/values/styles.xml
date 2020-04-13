@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextInput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="errorTextAppearance">@style/TextInputErrorAppearance</item>
+    </style>
+
+    <style name="TextInputErrorAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+
+
+
+
+
+
+
+
+
+    <style name="TextAppearance.Modulbank.Body1" parent="Modulbank.TextView">
+    </style>
+
+
+    <!--PrimaryButton-->
+    <style name="Modulbank.Buttons.PrimaryButton" parent="Modulbank.Buttons.Borderless">
+    </style>
+
+
+    <style name="TextAppearance.Modulbank.TextView" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+
+    <style name="Modulbank.TextView" parent="TextAppearance.Modulbank.TextView"/>
+
+
+    <style name="TextAppearance.Modulbank.HeadlineH3" parent="Modulbank.TextView">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!--FlatButton-->
+    <style name="Modulbank.Buttons.FlatButton" parent="Modulbank.Buttons.Borderless">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:minWidth">88dp</item>
+    </style>
+
+    <style name="Modulbank.Buttons.FlatButton.Light.Colored" parent="Modulbank.Buttons.FlatButton">
+    </style>
+
+    <style name="Modulbank.Buttons.Borderless" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>
